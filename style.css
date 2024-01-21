@@ -9,6 +9,13 @@ background-color: aliceblue;
 padding: 0.2em;
 }
 
+ ul {
+  list-style-type: none;
+  display: flex; /* Use flexbox to create a horizontal layout */
+  justify-content: space-around; /* Distribute items equally along the main axis */
+  padding: 10px;
+  }
+
 h2 {
 
 }
